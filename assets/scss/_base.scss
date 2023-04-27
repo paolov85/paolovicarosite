@@ -1,9 +1,13 @@
+body {
+    min-width: 288px;
+}
+
 .head-banner {
     padding-top: 5rem;
     padding-bottom: 5rem;
     background-size: cover;
     background-position: center ;
-    background-image: url(/assets/img/code.jpg);
+    background-image: url(/assets/img/code.svg);
 }
 
 .icon-section {
@@ -11,7 +15,7 @@
         margin-top: 8px;
     }
     div {
-        margin: 1rem 0 1rem 0;
+        margin: 0.5rem 0 0.5rem 0;
     }
     svg {
         font-size: 60px;
@@ -19,6 +23,8 @@
 }
 
 .img-section {
+    width: 100%;
+
     .image {
         min-height: 15rem;
         background-size: cover;
@@ -32,6 +38,7 @@
 
 @media screen and (min-width: 768px){
 .head-banner {
+    height: 100vh;
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
@@ -43,6 +50,9 @@
 }
 
 .img-section {
+
+    width: 100%;
+
     .image {
         min-height: 30rem;
         background-size: cover;
@@ -56,5 +66,10 @@
 
 }
 
-
-
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .head-banner {
+        height: 60vh;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+}

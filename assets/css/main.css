@@ -10157,24 +10157,31 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  min-width: 288px;
+}
+
 .head-banner {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-size: cover;
   background-position: center;
-  background-image: url(/assets/img/code.jpg);
+  background-image: url(/assets/img/code.svg);
 }
 
 .icon-section h3, .icon-section .h3 {
   margin-top: 8px;
 }
 .icon-section div {
-  margin: 1rem 0 1rem 0;
+  margin: 0.5rem 0 0.5rem 0;
 }
 .icon-section svg {
   font-size: 60px;
 }
 
+.img-section {
+  width: 100%;
+}
 .img-section .image {
   min-height: 15rem;
   background-size: cover;
@@ -10187,11 +10194,15 @@ textarea.form-control-lg {
 
 @media screen and (min-width: 768px) {
   .head-banner {
+    height: 100vh;
     padding-top: 10rem;
     padding-bottom: 10rem;
   }
   .icon-section div {
     margin: 2rem 0 2rem 0;
+  }
+  .img-section {
+    width: 100%;
   }
   .img-section .image {
     min-height: 30rem;
@@ -10201,5 +10212,12 @@ textarea.form-control-lg {
   .img-section .text {
     padding: 7rem;
     text-align: center;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .head-banner {
+    height: 60vh;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 }/*# sourceMappingURL=main.css.map */
