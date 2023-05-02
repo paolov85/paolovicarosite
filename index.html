@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <nav class="navbar navbar-expand-sm navbar-light bg-secondary fixed-top bg-opacity-25">
     <div class="container-xl">
       <a class="navbar-brand" href="#">PV</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,10 +22,10 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
-          <a class="nav-link" href="#">Profilo</a>
-          <a class="nav-link" href="#">Skills</a>
-          <a class="nav-link" href="#">Porfolio</a>
-          <a class="nav-link" href="#">Contattami</a>
+          <a class="nav-link" href="#profile">Profilo</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#portfolio">Porfolio</a>
+          <a class="nav-link" href="#contact">Contattami</a>
         </div>
       </div>
     </div>
@@ -39,8 +39,10 @@
           <div class="wave"></div>
         </div> -->
         <div class="col-lg-9 mx-auto">
-          <h1>Paolo Vicaro</h1>
-          <h2>Junior Web Developer</h2>
+          <div>
+            <h1>Paolo Vicaro</h1>
+            <h2>Junior Web Developer</h2>
+          </div>
         </div>
       </div>   
     </div>
@@ -48,8 +50,8 @@
 
   <main>
     
-    <section class="container-lg">
-      <div class="">
+    <section id="profile" class="container-md">
+      <div class="p-5">
         <h2>Su di me...</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ratione similique, quas ipsum optio sunt facere? Exercitationem molestiae, quod sapiente eius eaque in delectus vitae voluptatum cumque maiores beatae asperiores.</p>
       </div>
@@ -57,7 +59,7 @@
 
     <section class="img-section container-lg">
       <div class="container-fluid">
-        <div class="row no-gutters">
+        <div class="row">
           <div class="col-lg-6 order-lg-2 image" style="background-image: url('assets/img/web.jpg')"></div>
           <div class="col-lg-6 order-lg-1 text">
             <h2>Titolo</h2>
@@ -67,7 +69,7 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid">
+      <div class="container-lg">
         <div class="row no-gutters">
           <div class="col-lg-6 image" style="background-image: url('assets/img/web.jpg')"></div>
           <div class="col-lg-6 text">
@@ -92,7 +94,7 @@
       </div>
     </section>
     <div class="container p-5" style="text-align: center;">
-      <section class="icon-section">
+      <section id="skills" class="icon-section">
         <div class="row">
           <div class="col-sm-4">
             <div>
