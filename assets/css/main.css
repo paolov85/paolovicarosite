@@ -10161,9 +10161,12 @@ body {
   min-width: 288px;
 }
 
+.navbar a {
+  color: rgb(255, 255, 255) !important;
+}
+
 .head-banner {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding: 0.5rem 0 0.5rem 0;
   background-size: cover;
   background-position: center;
   background-image: url(/assets/img/code.svg);
