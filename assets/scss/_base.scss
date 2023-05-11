@@ -1,13 +1,11 @@
-@font-face {
-    font-family: 'cutiveMono';
-    src: url(assets/font/CutiveMono-Regular.ttf);
-}
-
 body {
     font-family: 'cutiveMono';
-    min-width: 288px;
+    min-width: 350px;
 }
 
+svg {
+    margin: 0 0 auto;
+}
 
 .navbar {
     a {
@@ -16,20 +14,34 @@ body {
         box-sizing: border-box;
     }
     .navbar-brand {
-        color: #C1121F !important;
+        color: #ee6c4d !important;
     }
 
 }
 
 
 .head-banner {
-    padding: 0.5rem 0 0.5rem 0;
+    padding-top: 6rem;
+    padding-bottom: 3.5rem;
     height: 100vh;
     width: 100vw;
+    font-family: 'Comfortaa', monotype;
+    font-size: 4rem !important;
     // background-size: cover;
     // background-position: center ;
     // background-image: url(/assets/img/code.svg);
+
+    h1, h2 {
+        font-size: 2.5rem !important;
+        min-width: max-content;
+    }
+
+    h3, h4 {
+        font-size: 1.5rem !important;
+    }
 }
+
+
 
 .icon-section {
     h3 {
@@ -55,7 +67,7 @@ body {
     }
 
     .text {
-        padding: 3rem;
+        // padding: 3rem;
         text-align: center;
     }
 }
@@ -63,8 +75,17 @@ body {
 @media screen and (min-width: 768px) {
     .head-banner {
         height: 100vh;
-        padding-top: 10rem;
-        padding-bottom: 10rem;
+        padding-top: 8rem;
+        padding-bottom: 4.5rem;
+        
+        h1 {
+            font-size: 4rem !important;
+            margin-top: 1.5rem !important;
+        }
+
+        h3, h4 {
+            font-size: 2.5rem !important;
+        }
     }
 
     #profile {
@@ -97,10 +118,3 @@ body {
 
 }
 
-@media screen and (min-width: 576px) and (max-width: 991px) {
-    .head-banner {
-        height: 60vh;
-        padding-top: 10rem;
-        padding-bottom: 10rem;
-    }
-}

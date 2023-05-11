@@ -2,3 +2,9 @@
 @import 'base';
 @import 'variables';
 @import "../bootstrap/scss/bootstrap";
+
+:root {
+    --bs-body-font-family: 'Roboto Mono', monospace;
+}
+
+
