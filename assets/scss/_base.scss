@@ -15,10 +15,27 @@ svg {
     }
     .navbar-brand {
         color: #ee6c4d !important;
+        font-size: 2rem;
     }
 
 }
 
+.contacts {
+    position:fixed;
+    width: 50px;
+    height: 100px;
+    background: red;
+    margin: 0 0 auto;
+}
+
+.container {
+    h1 {
+        background-color: #ee6c4d;
+        color: #FAFAFF;
+        border-radius: 50px;
+        padding: 30px;
+    }
+}
 
 .head-banner {
     padding-top: 6rem;
@@ -60,23 +77,36 @@ svg {
 .img-section {
     width: 100%;
 
-    .image {
-        min-height: 15rem;
-        background-size: cover;
-        background-position: center;
-    }
-
     .text {
         // padding: 3rem;
         text-align: center;
     }
+
+    svg {
+        font-size: 80px;
+    }
+
 }
+
+#skills {
+    .card {
+        border: none;
+        border-radius: 50px;
+        padding: 20px;
+    }
+
+    .card:hover {
+        background-color: #ee6c4d;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
     .head-banner {
-        height: 100vh;
+        
         padding-top: 8rem;
-        padding-bottom: 4.5rem;
+        padding-bottom: 5.5rem;
+        height:max-content !important;
         
         h1 {
             font-size: 4rem !important;
@@ -105,7 +135,7 @@ svg {
         width: 100%;
 
         .image {
-            min-height: 30rem;
+            min-height: 15rem;
             background-size: cover;
             background-position: center;
         }
