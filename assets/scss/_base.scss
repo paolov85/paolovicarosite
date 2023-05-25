@@ -13,6 +13,7 @@ svg {
         height: fit-content;
         box-sizing: border-box;
     }
+
     .navbar-brand {
         color: #ee6c4d !important;
         font-size: 2rem;
@@ -21,11 +22,13 @@ svg {
 }
 
 .contacts {
-    position:fixed;
-    width: 50px;
-    height: 100px;
-    background: red;
-    margin: 0 0 auto;
+    position: fixed;
+    width: 5%;
+    height: 20%;
+    background: #ee6c4d;
+    bottom: 40%;
+    right: 0;
+    // margin: 0 0 auto;
 }
 
 .container {
@@ -42,18 +45,21 @@ svg {
     padding-bottom: 3.5rem;
     height: 100vh;
     width: 100vw;
+    min-height: 844px;
     font-family: 'Comfortaa', monotype;
     font-size: 4rem !important;
     // background-size: cover;
     // background-position: center ;
     // background-image: url(/assets/img/code.svg);
 
-    h1, h2 {
+    h1,
+    h2 {
         font-size: 2.5rem !important;
         min-width: max-content;
     }
 
-    h3, h4 {
+    h3,
+    h4 {
         font-size: 1.5rem !important;
     }
 }
@@ -91,29 +97,42 @@ svg {
 #skills {
     .card {
         border: none;
-        border-radius: 50px;
-        padding: 20px;
+        border-radius: 25px;
+        box-shadow: -3px 6px 5px 0px hsla(214, 35%, 37%, 0.436);
+        transition: all .3s ease-in-out;
     }
 
     .card:hover {
-        background-color: #ee6c4d;
+        background-color: #669bbc;
+        box-shadow: -3px 18px 20px 0px rgba(99, 89, 99, 1);
+        color: #FAFAFF;
+    }
+}
+
+.carousel-item {
+    a {
+
+        img {
+            height: 100px;
+        }
     }
 }
 
 
 @media screen and (min-width: 768px) {
     .head-banner {
-        
+
         padding-top: 8rem;
         padding-bottom: 5.5rem;
-        height:max-content !important;
-        
+        height: max-content !important;
+
         h1 {
             font-size: 4rem !important;
             margin-top: 1.5rem !important;
         }
 
-        h3, h4 {
+        h3,
+        h4 {
             font-size: 2.5rem !important;
         }
     }
@@ -147,4 +166,3 @@ svg {
     }
 
 }
-
