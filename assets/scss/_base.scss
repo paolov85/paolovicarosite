@@ -96,6 +96,11 @@ svg {
 .img-section {
     width: 100%;
 
+    .image {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
     .text {
         // padding: 3rem;
         text-align: center;
@@ -162,6 +167,10 @@ svg {
     }
 
     #profile {
+
+        padding-top: -40px;
+        margin-top: 40px;
+        
         div {
             text-align: justify !important;
         }
@@ -180,7 +189,7 @@ svg {
         .image {
             min-height: 15rem;
             background-size: cover;
-            background-position: center;
+            background-position: center;        
         }
 
         .text {
