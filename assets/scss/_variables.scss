@@ -1,9 +1,13 @@
-
+$darkRed: #780000;
+$lightRed: #ee6c4d;
+$white: #FAFAFF;
+$darkBlue: #3d5a80;
+$lightBlue: #669BBC;
 
 $theme-colors: (
-    'dRed': #780000,
-    'lRed': #ee6c4d,
-    'white': #FAFAFF,
-    'dBlue':#3d5a80,
-    'lBlue': #669BBC
+    'dRed': $darkRed,
+    'lRed': $lightRed,
+    'white': $white,
+    'dBlue':$darkBlue,
+    'lBlue': $lightBlue
 )
