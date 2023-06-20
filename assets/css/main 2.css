@@ -61,6 +61,13 @@ svg {
   font-size: 2.5rem !important;
 }
 
+.m-5 svg {
+  background-color: #669bbc;
+  box-shadow: 0px 0px 20px 0px rgb(99, 89, 99);
+  color: #FAFAFF;
+  z-index: 1;
+}
+
 .icon-section h3, .icon-section .h3 {
   margin-top: 8px;
 }
