@@ -1,0 +1,12 @@
+
+@import 'variables';
+@import 'base';
+@import "../bootstrap/scss/bootstrap";
+@import 'flipcard';
+@import 'arrow';
+
+:root {
+    --bs-body-font-family: 'Roboto Mono', monospace;
+}
+
+
