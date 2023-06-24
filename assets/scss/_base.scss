@@ -29,7 +29,7 @@ svg {
     border-radius: 100%;
     background: $lightRed;
     // padding: 10px;
-    bottom: 50px;
+    bottom: 32px;
     right: 5px;
     z-index: 100;
 
@@ -152,7 +152,7 @@ svg {
 .carousel-item {
 
     img {
-        width: 70% !important;
+        width: 50% !important;
         height: 8.5em !important;
         object-position: center !important;
         object-fit: cover !important;
@@ -179,7 +179,7 @@ svg {
     .contacts {
         width: 100px;
         height: 100px;
-        bottom: 40px;
+        bottom: 94px;
     }
 
     .contacts:hover {
