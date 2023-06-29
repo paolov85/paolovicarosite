@@ -68,6 +68,8 @@ svg {
 
     h1,
     h2 {
+        margin-top: 6rem;
+        margin-bottom: 3rem;
         font-size: 2.5rem !important;
         min-width: max-content;
     }
@@ -152,7 +154,7 @@ svg {
 .carousel-item {
 
     img {
-        width: 50% !important;
+        width: 90% !important;
         height: 8.5em !important;
         object-position: center !important;
         object-fit: cover !important;
