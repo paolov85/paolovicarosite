@@ -1,6 +1,5 @@
 window.onload = function() {
-  console.log("La pagina è stata completamente caricata.");
-
+ 
   var mobileNav = document.getElementsByClassName("mobileNav");
   var mobileNavLink = document.getElementsByClassName("mobileNavLink");
 
