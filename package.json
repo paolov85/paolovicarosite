@@ -1,0 +1,23 @@
+{
+  "name": "paolovicarosite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paolov85/paolovicarosite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paolov85/paolovicarosite/issues"
+  },
+  "homepage": "https://github.com/paolov85/paolovicarosite#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
