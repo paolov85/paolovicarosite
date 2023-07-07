@@ -5,7 +5,6 @@ window.onload = function () {
   let mobileNav = document.getElementsByClassName("mobileNav");
   let mobileNavLink = document.getElementsByClassName("mobileNavLink");
   let contactLink = document.getElementById("contactLink");
-  let logoLink = document.getElementById('logoLink');
 
   if (window.innerWidth > 768) {
     for (var i = 0; i < mobileNav.length; i++) {
@@ -21,8 +20,7 @@ window.onload = function () {
       mobileNav[i].setAttribute("style", "display: inline-block; width: 100%; height: 40px");
       mobileNavLink[i].setAttribute("style", "padding: 0;");
     }
-    contactLink.setAttribute("style", "padding: 0;height:40px;");
-    logoLink.setAttribute("data-bs-toggle", "collapse");
+    contactLink.setAttribute("style", "padding: 0;height:40px;"););
   }
 
   window.addEventListener("resize", function () {
@@ -32,8 +30,7 @@ window.onload = function () {
         mobileNav[i].setAttribute("style", "display: inline-block; width: 100%;");
         mobileNavLink[i].removeAttribute("style");
       }
-      contactLink.removeAttribute("style");
-      logoLink.removeAttribute("data-bs-toggle");
+      contactLink.removeAttribute("style"););
     }
   });
 
@@ -44,8 +41,7 @@ window.onload = function () {
         mobileNav[i].setAttribute("style", "display: inline-block; width: 100%; height: 40px");
         mobileNavLink[i].setAttribute("style", "padding: 0;");
       }
-      contactLink.setAttribute("style", "padding: 0;height:40px;");
-      logoLink.setAttribute("data-bs-toggle", "collapse");
+      contactLink.setAttribute("style", "padding: 0;height:40px;"));
 
     }
   });
